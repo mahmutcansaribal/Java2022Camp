@@ -45,7 +45,7 @@ public class Methods {
 	/*
 		
 		public static void mesajVer(String mesaj) {
-			
+			System.out.println(mesaj);
 		}
 		
 	 */
