@@ -1,6 +1,25 @@
 package ClassesWithAttributes;
 
 public class Product {
+	
+	//Constructor
+	public Product(int id, String name, String description, double price, int stockAmount, String renk) {
+		System.out.println("Yapıcı blok calisti");
+		
+		this._id = id;
+		this._renk = renk;
+		this._name = name;
+		this._price = price;
+		this._description = description;
+		this._stockAmount = stockAmount;
+	}
+	
+	public Product()
+	{
+		
+	}
+	
+	
 	//Private sadece tanımlandıgı alanda gecerlidir.
 	//Attribute | Field
 	private int _id;
